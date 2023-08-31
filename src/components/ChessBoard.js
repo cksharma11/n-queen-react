@@ -30,7 +30,7 @@ const ChessBoard = ({ n }) => {
 
     const getQueenColor = (row, col) => {
         const queenIndex = solution[row].indexOf('Q');
-        return queenIndex === col ? `hsl(${(row * 40) % 360}, 70%, 60%)` : 'transparent';
+        return queenIndex === col ? `hsl(${(row * 40) % 360}, 70%, 60%)` : 'transparent cell';
     };
 
     return (
