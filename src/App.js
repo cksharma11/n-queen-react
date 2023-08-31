@@ -1,7 +1,7 @@
 import './App.css';
-import ChessBoard from "./ChessBoard";
+import ChessBoard from "./components/ChessBoard";
 import React, { useState } from 'react';
-import BoardSizeModal from './BoardSizeModal'; // Import the modal component
+import BoardSizeModal from './components/BoardSizeModal';
 
 const App = () => {
     const [boardSize, setBoardSize] = useState(null);

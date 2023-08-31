@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import solveNQueens from "./n-queen"; // Import your solveNQueens function
+import solveNQueens from "../core/n-queen";
 
 const ChessBoard = ({ n }) => {
     const [solutions, setSolutions] = useState([]);

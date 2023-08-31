@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import './BoardSizeModal.css'; // Import the CSS file
+import './BoardSizeModal.css';
 
-Modal.setAppElement('#root'); // Set the app root for accessibility
+Modal.setAppElement('#root');
 
 const BoardSizeModal = ({ isOpen, onRequestClose, onSubmit }) => {
     const [boardSize, setBoardSize] = useState('');
