@@ -1,0 +1,107 @@
+/* ChessBoard.css */
+.solutions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  opacity: 0;
+  animation: fadeInCenter 0.5s forwards;
+}
+
+@keyframes fadeInCenter {
+  to {
+    opacity: 1;
+  }
+}
+
+.solved-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  width: 40px; /* Set a fixed width */
+  height: 40px; /* Set a fixed height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.even {
+  background-color: #f0d9b5;
+}
+
+.timer {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #888;
+}
+
+.reload-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reload-button:hover {
+  background-color: #0056b3;
+}
+
+.safe-cell {
+  background-color: #8bc34a; /* Highlight color for safe cells */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.attack-cell {
+  background-color: #f44336; /* Highlight color for cells under attack */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.board-navigation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.navigation-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navigation-button span {
+  margin-right: 5px;
+}
+
+.navigation-button:hover {
+  background-color: #0056b3;
+}
