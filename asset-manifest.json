@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/n-queen-react/static/css/main.09bd50d4.css",
-    "main.js": "/n-queen-react/static/js/main.f3448c5a.js",
+    "main.js": "/n-queen-react/static/js/main.04e24d25.js",
     "static/js/787.b5a02eb4.chunk.js": "/n-queen-react/static/js/787.b5a02eb4.chunk.js",
     "index.html": "/n-queen-react/index.html",
     "main.09bd50d4.css.map": "/n-queen-react/static/css/main.09bd50d4.css.map",
-    "main.f3448c5a.js.map": "/n-queen-react/static/js/main.f3448c5a.js.map",
+    "main.04e24d25.js.map": "/n-queen-react/static/js/main.04e24d25.js.map",
     "787.b5a02eb4.chunk.js.map": "/n-queen-react/static/js/787.b5a02eb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09bd50d4.css",
-    "static/js/main.f3448c5a.js"
+    "static/js/main.04e24d25.js"
   ]
 }
